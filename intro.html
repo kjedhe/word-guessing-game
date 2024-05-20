@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<!--<html lang="en">-->
+<head>
+ <!--<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ --><title>Document</title>
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+     105deg,
+     #58035d ,
+     #a07f08
+ );
+}
+
+p{
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 10s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+button{
+  
+  width: 100%;
+  cursor: pointer;
+  color: #090909;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #50083b;
+  transition: all 0.3s ease;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% { 
+    background-position: 500%;
+  }
+}
+
+  </style>
+  </head>
+ 
+<body>
+  
+   <p>CHAREDES : Guess the word</p> 
+   
+   <!--<input type="submit" value="play"class="submit_btn"></a>-->
+   <a href="start.html">
+    <button>Play</button>
+  </a> 
+  <!--<audio loop autoplay  src="music-3.mp3" ></audio>-->
+  <audio controls hidden autoplay="autoplay"> <source src="music-3.mp3" type="audio/mp3"> </audio> 
+  </body></html>
+
+ 
